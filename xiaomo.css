@@ -1,11 +1,14 @@
 h1.main {
-    font-size: 24px;
+    font-family: "Arial", sans-serif;
     font-weight: bold;
-    color: rgb(66, 184, 207);
+    font-size: 36px;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 p.main {
+    font-family: 'Arial', sans-serif;
+
     font-size: 18px;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -27,8 +30,9 @@ html,body {
 }
 
 body {
-    background-image: url('https://img.picui.cn/free/2025/05/28/6836a9fb72d7b.jpg');
-    background-size: cover;
+    background-image: url('https://2.z.wiki/autoupload/20250528/xJ2D/7360X8640/%E7%94%BB%E6%9D%BF_15-28.webp');
+    background-position:0%;
+    background-size: 800px auto;
     background-position: center;
     background-repeat: no-repeat;
     /* width: 600px;
@@ -65,9 +69,11 @@ div.cards {
     transition: box-shadow 0.3s ease-in-out;
 }
 
+
+
 div.cardm {
-    justify-content: center;
     width: 80%;
+    margin: auto;
     height: auto;
     background-color: #fff;
     border-radius: 10px;
@@ -87,3 +93,14 @@ div.cardm {
 
 }
 
+.box-model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
