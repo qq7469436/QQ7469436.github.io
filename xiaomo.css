@@ -1,12 +1,85 @@
-h1 {
-    color: blue;
-    text-align: left;
+h1.main {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(66, 184, 207);
+    text-align: center;
+}
+
+p.main {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+a.main {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 255, 98);
+    text-align: center;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    background-image: url('https://img.picui.cn/free/2025/05/28/6836a9fb72d7b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 600px;
     background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; */
 }
+
+div.card {
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+                -4px -4px 8px white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+div.cards {
+    justify-content: center;
+    width: 260px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+                -4px -4px 8px white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+div.cardm {
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+                -4px -4px 8px white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
 
 .element:hover {
     box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1),
